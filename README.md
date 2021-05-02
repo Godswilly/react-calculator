@@ -7,7 +7,7 @@ This project is a basic react app setup. Basic setup include, prop-types for typ
 - React
 
 ## Live Demo
-[Live Demo](https://unruffled-hypatia-9b8d82.netlify.app/)
+[Live Demo]()
 
 ## Getting Started 
 To get a local copy up and running follow these simple example steps.
