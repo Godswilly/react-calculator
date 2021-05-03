@@ -1,13 +1,16 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 
-const App = () => (
-  <div>
-    <ButtonPanel />
-    <Display />
-  </div>
-);
+function App() {
+  return (
+    <div>
+      <h1>My calculator</h1>
+      <Display />
+      <ButtonPanel />
+    </div>
+  );
+}
 
 export default App;
