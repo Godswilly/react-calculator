@@ -7,7 +7,7 @@ This project is a basic react calculator app bare-bone without functionality.
 - React
 
 ## Live Demo
-[Live Demo](https://priceless-cray-687985.netlify.app/)
+[Live Demo](https://angry-golick-6671e1.netlify.app/)
 
 ## Getting Started 
 To get a local copy up and running, follow these simple example steps.
