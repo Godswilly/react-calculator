@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import Big from 'big.js';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 
