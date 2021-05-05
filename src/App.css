@@ -1,18 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-size: 50%;
-  background-color: #fff;
+  box-sizing: inherit;
 }
 
 body {
+  box-sizing: border-box;
   padding: 2rem 2rem;
   font-family: "Lato", sans-serif;
 }
 
 .display {
-  height: 10rem;
+  height: 6rem;
   width: 100%;
   background-color: #858693;
   display: flex;
@@ -31,13 +30,15 @@ body {
 .btnPanelRow {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 12rem;
-  font-size: 6rem;
+  grid-template-rows: 6.25rem;
 }
 
 .lastRow {
   grid-template-columns: 2fr 1fr 1fr;
-  font-size: 6rem;
+}
+
+.btnPanelRow button {
+  font-size: 3rem;
 }
 
 .btnPanelRow button:last-child {

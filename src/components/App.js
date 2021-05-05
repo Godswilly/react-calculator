@@ -11,31 +11,33 @@ class App extends React.Component {
       total: null,
       next: null,
       operation: null,
+      totalCalc: true,
     };
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = (buttonName) => {
     const {
-      total, next, operation,
+      total, next, operation, totalCalc,
     } = this.state;
     const result = calculate({
-      total, next, operation,
+      total, next, operation, totalCalc,
     }, buttonName);
     this.setState({
       total: result.total,
       next: result.next,
       operation: result.operation,
+      totalCalc: result.totalCalc,
     });
   }
 
   render() {
     const { total, next } = this.state;
     return (
-      <di>
+      <div>
         <Display result={total} next={next} />
         <ButtonPanel clickHandler={this.handleClick} />
-      </di>
+      </div>
     );
   }
 }
