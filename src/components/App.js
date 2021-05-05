@@ -13,6 +13,15 @@ class App extends React.Component {
       operation: null,
     };
   }
+
+  render() {
+    return (
+      <div>
+        <Display />
+        <ButtonPanel />
+      </div>
+    );
+  }
 }
 
 export default App;
