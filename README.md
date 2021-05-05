@@ -1,5 +1,7 @@
 # React Calculator App
-This project is a basic react calculator app with logic and no functionality.
+This project is a basic react calculator app. Here, I used React components, JSX, React states and props, and event handlers.
+
+![screenshot](Screenshot.png)
 
 ## Built With
 - CSS
