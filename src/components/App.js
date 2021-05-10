@@ -19,6 +19,7 @@ const App = () => {
     const result = calculate({
       total, next, operation, totalCalc,
     }, buttonName);
+
     setState({
       total: result.total,
       next: result.next,
