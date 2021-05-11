@@ -7,9 +7,9 @@ import Quotes from './Quotes';
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/App" component={App} />
-      <Route path="/" component={Home} />
-      <Route path="/ Quotes" component={Quotes} />
+      <Route exact path="/App" component={App} />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/Quotes" component={Quotes} />
     </Switch>
   </BrowserRouter>
 );

@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 const Home = () => (
   <div>
     <NavBar />
-    <h1>Welcome</h1>
+    <h2>Welcome</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

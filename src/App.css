@@ -29,7 +29,18 @@ body {
 }
 
 .navbar-menu li {
+  list-style-type: none;
   padding-left: 10px;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  text-align: center;
 }
 
 p {
