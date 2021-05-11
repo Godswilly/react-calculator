@@ -1,9 +1,9 @@
 import React from 'react';
 
 const NavBar = () => (
-  <nav>
+  <nav className="navbar">
     <h1>Math Magicians</h1>
-    <ul>
+    <ul className="navbar-menu">
       <li>Home</li>
       <li>App</li>
       <li>Quotes</li>
