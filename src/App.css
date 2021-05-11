@@ -30,6 +30,11 @@ body {
 
 .navbar-menu li {
   padding-left: 10px;
+}
+
+p {
+  line-height: 30px;
+  margin-bottom: 20px;
 } 
 
 .display {
