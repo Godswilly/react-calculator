@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders button correctly 1`] = `
+<button
+  onClick={[MockFunction]}
+  type="button"
+>
+  AC
+</button>
+`;
+
+exports[`renders display correctly 1`] = `
+<div
+  className="display"
+>
+  <h2>
+    0
+  </h2>
+</div>
+`;
+
+exports[`renders home page 1`] = `
+<div>
+  <nav
+    className="navbar"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <ul
+      className="navbar-menu"
+    >
+      <li>
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/App"
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/Quotes"
+        >
+          Quotes
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h2>
+    Welcome
+  </h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+  </p>
+</div>
+`;
+
+exports[`renders quotes page 1`] = `
+<div>
+  <nav
+    className="navbar"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <ul
+      className="navbar-menu"
+    >
+      <li>
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/App"
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/Quotes"
+        >
+          Quotes
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h2>
+    Welcome
+  </h2>
+  <p>
+    Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. –William Paul Thurston
+  </p>
+</div>
+`;
