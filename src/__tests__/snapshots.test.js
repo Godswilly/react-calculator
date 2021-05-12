@@ -10,7 +10,7 @@ it('renders button correctly', () => {
   expect(tree).toMatchSnapshot();
 });
 
-it('renders home page', () => {
+it('renders home page correctly', () => {
   const tree = renderer.create(<Home />);
   expect(tree).toMatchSnapshot();
 });
@@ -20,7 +20,7 @@ it('renders display correctly', () => {
   expect(tree).toMatchSnapshot();
 });
 
-it('renders quotes page', () => {
+it('renders quotes page correctly', () => {
   const tree = renderer.create(<Quotes />);
   expect(tree).toMatchSnapshot();
 });
