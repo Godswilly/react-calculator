@@ -7,9 +7,10 @@ This project is a basic react calculator app. Here, I used React components, JSX
 - CSS
 - JavaScript
 - React
+- Jest 
 
 ## Live Demo
-[Live Demo](https://vibrant-meitner-dd0695.netlify.app/)
+[Live Demo](https://suspicious-swirles-6e2cf1.netlify.app/)
 
 ## Getting Started 
 To get a local copy up and running, follow these simple example steps.
