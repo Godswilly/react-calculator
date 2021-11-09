@@ -92,3 +92,21 @@ it('returns positive value of +/- button', () => {
     total: '20',
   });
 });
+
+it('returns percentage of a given number', () => {
+  const result = calculate({
+    total: '100', next: '0.001', operation: '%', totalCalc: true,
+  }, '=');
+  expect(result).toStrictEqual({
+    total: '1', next: null, operation: null, totalCalc: false,
+  });
+});
+
+it('returns the wrong percentage of a given number', () => {
+  const result = calculate({
+    total: '100', next: '0.001', operation: '%', totalCalc: true,
+  }, '=');
+  expect(result).not.toBe({
+    total: '1', next: null, operation: null, totalCalc: false,
+  });
+});
