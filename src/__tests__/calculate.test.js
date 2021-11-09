@@ -16,7 +16,7 @@ it('returns the subtraction of two numbers', () => {
   expect(result).toBe('3');
 });
 
-it('returns the subtraction of two numbers', () => {
+it('returns the subtraction of two numbers as not equal', () => {
   const result = operate(8, 5, '-');
   expect(result).not.toBe('4');
 });
@@ -54,5 +54,23 @@ it('returns the division of two digits', () => {
   }, '=');
   expect(result).not.toStrictEqual({
     total: '2', next: null, operation: null, totalCalc: true,
+  });
+});
+
+it('returns empty string if button is AC', () => {
+  const result = calculate({
+    total: null, next: null, operation: null, totalCalc: true,
+  });
+  expect(result).toStrictEqual({
+    total: null, next: null, operation: null, totalCalc: true,
+  });
+});
+
+it('returns empty string if button is AC', () => {
+  const result = calculate({
+    total: '20', next: '5', operation: null, totalCalc: false,
+  });
+  expect(result).not.toMatchObject({
+    total: '20', next: '5', operation: null, totalCalc: true,
   });
 });
