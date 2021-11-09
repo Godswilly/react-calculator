@@ -74,3 +74,21 @@ it('returns empty string if button is AC', () => {
     total: '20', next: '5', operation: null, totalCalc: true,
   });
 });
+
+it('returns negative value of +/- button', () => {
+  const result = calculate({
+    total: '-20',
+  });
+  expect(result).toMatchObject({
+    total: '-20',
+  });
+});
+
+it('returns positive value of +/- button', () => {
+  const result = calculate({
+    total: '20',
+  });
+  expect(result).toMatchObject({
+    total: '20',
+  });
+});
